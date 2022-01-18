@@ -1,5 +1,5 @@
 import React, { useRef, useEffect } from 'react';
-import { useLocation, Switch } from 'react-router-dom';
+import { useLocation, Switch, Route } from 'react-router-dom';
 import AppRoute from './utils/AppRoute';
 import ScrollReveal from './utils/ScrollReveal';
 import ReactGA from 'react-ga';
@@ -10,6 +10,8 @@ import LayoutDefault from './layouts/LayoutDefault';
 // Views 
 import Home from './views/Home';
 import ContactNew from './views/ContactNew';
+import FourOFour from './views/FourOFour';
+
 
 // Initialize Google Analytics
 ReactGA.initialize(process.env.REACT_APP_GA_CODE);
@@ -40,7 +42,7 @@ const App = () => {
           <AppRoute exact path="/" component={Home} layout={LayoutDefault} />
           {/* <AppRoute exact path="/contact" component={Contact} layout={LayoutDefault} />  */}
           <AppRoute exact path="/contact" component={ContactNew} layout={LayoutDefault} /> 
-          <AppRoute  path="/*" component={<h1>Nothing here!</h1>} layout={LayoutDefault} /> 
+          <AppRoute  exact path="*" component={FourOFour} layout={LayoutDefault} /> 
         </Switch>
       )} />
   );
