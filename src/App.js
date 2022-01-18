@@ -40,6 +40,7 @@ const App = () => {
           <AppRoute exact path="/" component={Home} layout={LayoutDefault} />
           {/* <AppRoute exact path="/contact" component={Contact} layout={LayoutDefault} />  */}
           <AppRoute exact path="/contact" component={ContactNew} layout={LayoutDefault} /> 
+          <AppRoute  path="/*" component={<h1>Nothing here!</h1>} layout={LayoutDefault} /> 
         </Switch>
       )} />
   );
