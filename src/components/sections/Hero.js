@@ -5,6 +5,7 @@ import ButtonGroup from '../elements/ButtonGroup';
 import Button from '../elements/Button';
 import Image from '../elements/Image';
 import Modal from '../elements/Modal';
+const gif = require('../../assets/gif/giphy.gif')
 
 const propTypes = {
   ...SectionProps.types
@@ -91,7 +92,7 @@ const Hero = ({
             >
               <Image
                 className="has-shadow"
-                src={'https://media.giphy.com/media/xT8qAYBYOnlcaUHXji/giphy.gif'}
+                src={gif}
                 alt="Hero"
                 width={448}
                 height={252} />
