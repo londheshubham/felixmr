@@ -11,6 +11,7 @@ import LayoutDefault from './layouts/LayoutDefault';
 import Home from './views/Home';
 import ContactNew from './views/ContactNew';
 import FourOFour from './views/FourOFour';
+import About from './views/About';
 
 
 // Initialize Google Analytics
@@ -42,6 +43,7 @@ const App = () => {
           <AppRoute exact path="/" component={Home} layout={LayoutDefault} />
           {/* <AppRoute exact path="/contact" component={Contact} layout={LayoutDefault} />  */}
           <AppRoute exact path="/contact" component={ContactNew} layout={LayoutDefault} /> 
+          <AppRoute exact path="/about" component={About} layout={LayoutDefault} /> 
           <AppRoute  exact path="*" component={FourOFour} layout={LayoutDefault} /> 
         </Switch>
       )} />
