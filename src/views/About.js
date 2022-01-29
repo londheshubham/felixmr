@@ -1,7 +1,7 @@
 import React from 'react';
 import classNames from 'classnames';
 
-const ContactNew = ({
+const About = ({
     className,
     topOuterDivider,
     bottomOuterDivider,
@@ -32,11 +32,12 @@ const ContactNew = ({
             {...props}
             className={outerClasses}
         >
-            <div className="container-sm">
+            <div className="container-sm" style={{textAlign:'justify'}}>
                 <div className={innerClasses}>
                     <div className="hero-content">
-                        <h3 className="mt-30 mb-16" data-reveal-delay="200" style={{fontSize:'20px'}}>
-                            contact@felixmarketresearch.com <br /> <span className="text-color-primary">+91-7350029666</span>
+                        <h3 className="mt-30 mb-16" data-reveal-delay="200" style={{ fontSize: '20px' }}>
+                            We are the top market research report and data insights seller globally, backed by our excellent publishers. We have millions of precise research reports and dedicated team of industry experts
+                            to assist our client to achieve growth in their respective market. We understand our clients requirements, the challenges they are facing and help accordingly to tackle those issues.
                         </h3>
                     </div>
                 </div>
@@ -45,4 +46,4 @@ const ContactNew = ({
     );
 }
 
-export default ContactNew;
+export default About;
