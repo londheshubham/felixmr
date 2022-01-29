@@ -49,11 +49,11 @@ const Hero = ({
         <div className={innerClasses}>
           <div className="hero-content">
             <h3 className="mt-30 mb-16 reveal-from-bottom" data-reveal-delay="200">
-              Market Research Solutions <br /> <span className="text-color-primary">For Enterprises to Small Scale Businesses</span>
+              Data Rich Insights <br /> <span className="text-color-primary">For Enterprises to Small Scale Businesses</span>
             </h3>
             <div className="container-xs">
               <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="400">
-                Our tagline here
+              Excel your Business growth with the impeccable insights of market.
                 </p>
               <div className="reveal-from-bottom" data-reveal-delay="600">
                 <ButtonGroup>
