@@ -44,8 +44,8 @@ const FeaturesTiles = ({
   );
 
   const sectionHeader = {
-    title: 'Our expertise will go here',
-    paragraph: 'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum — semper quis lectus nulla at volutpat diam ut venenatis.'
+    title: 'Understand wants, needs and goals of your Customer',
+    paragraph: 'With our data get actionable, unbiased insights about the customer segment, market growth, competitors.'
   };
 
   return (

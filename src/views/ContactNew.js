@@ -36,7 +36,7 @@ const ContactNew = ({
                 <div className={innerClasses}>
                     <div className="hero-content">
                         <h3 className="mt-30 mb-16" data-reveal-delay="200" style={{fontSize:'20px'}}>
-                            contact@felixmarketresearch.com <br /> <span className="text-color-primary">+91-7350029666</span>
+                            contact@detasightmarketresearch.com <br /> <span className="text-color-primary">+91-7350029666</span>
                         </h3>
                     </div>
                 </div>

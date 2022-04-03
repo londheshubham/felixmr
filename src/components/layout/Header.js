@@ -83,7 +83,7 @@ const Header = ({
             'site-header-inner',
             bottomDivider && 'has-bottom-divider'
           )}>
-            <h1>FELIX <br /><span style={{fontSize:'44px'}}>Market Research</span></h1>
+            <h1>Detasight <br /><span style={{fontSize:'44px'}}>Market Research</span></h1>
         </div>
       </div>
     </header>
